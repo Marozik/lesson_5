@@ -1,0 +1,241 @@
+/* &display=swap */
+
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900);
+
+/*------- BMW e30 --------*/
+body {
+   font-family: "Lato";
+   font-size: 18px;
+   color: #392f2c;
+   line-height: 1.4;
+}
+[class*="-conteiner"] {
+   width: 1000px;
+   margin: 0 auto;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+/*------- BMW e30 header --------*/
+.header {
+   margin-top: 32px;
+}
+.header-logo {
+   display: block;
+   width: 300px;
+   margin: 0 auto;
+   margin-bottom: 38px;
+}
+.header-menu {
+   margin-bottom: 25px;
+}
+.header-menu-item {
+   display: inline-block;
+   margin-right: 41px;
+}
+.header-menu-link {
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 2px;
+}
+.link-underline {
+   text-decoration: underline;
+}
+.menu-link-gold {
+   color: sandybrown;
+}
+.search-button {
+   width: 50px;
+}
+
+/*------- BMW e30 main --------*/
+.img-block {
+   width: 100%;
+   white-space: nowrap;
+   overflow: auto;
+   margin-bottom: 70px;
+}
+.block-slider {
+   margin-right: 5px;
+   width: 500px;
+}
+.block-icon {
+   margin-bottom: 50px;
+}
+.article-author {
+   width: 400px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+.author-avatar {
+   display: block;
+   width: 120px;
+   margin: 0 auto 10px;
+}
+div.article-author > h3,h4,h5 {
+   text-align: center;
+}
+div.article-author h3 {
+   font-weight: 700;
+}
+h4 {
+   color: #525349;
+}
+h5 {
+   color: #9a917c;
+}
+.main-article {
+   max-width: 600px;
+   margin: 0 auto;
+}
+h1 {
+   font-size: 35px;
+   font-weight: 700;
+   color: #525349;
+   line-height: 1.2;
+   letter-spacing: 1px;
+   margin-bottom: 30px;
+}
+p {
+   text-align: justify;
+   font-size: 17px;
+   line-height: 1.8;
+   margin-bottom: 20px;
+}
+.block-2 {
+   margin-bottom: 50px;
+}
+.port {
+   width: 480px;
+   margin: 0px 4px 8px 0px;
+}
+.red {
+   color: red;
+}
+.block-3 {
+   margin-bottom: 40px;
+}
+
+/*------- Related --------*/
+.related-conteiner {
+   margin-bottom: 50px;
+}
+.related-item {
+   display: inline-block;
+   max-width: 330px;
+   min-height: 330px;
+   padding: 0px 10px 10px 0px;
+}
+
+.related-img {
+   width: 315px;
+   height: 315px;
+}
+.related-featured-link {
+   display: block;
+   max-width: 100px;
+   color: #988f7a;
+   text-transform: uppercase;
+   font-weight: 700;
+   padding-top: 5px;
+}
+.title-link {
+   display: block;
+   max-width: 325px;
+   font-size: 20px;
+   text-decoration: underline;
+}
+.related-date {
+   display: inline-block;
+   font-size: 16px;
+   color: #c5c5c5;
+}
+h2.related {
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 24px;
+   letter-spacing: 1px;
+   padding: 30px 0px;
+}
+.figma {
+   display: block;
+   width: 300px;
+   margin: 0 auto 50px;
+   font-size: 30px;
+   text-transform: uppercase;
+   text-decoration: underline;
+   color: red;
+}
+
+/*------- BMW e30 footer --------*/
+
+.footer-menu-link {
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 24px;
+   letter-spacing: 1px;
+}
+.footer-menu-item {
+   padding: 0 0 5px 0;
+}
+.footer-menu-list {
+   margin-bottom: 50px;
+}
+
+/*------- Figma --------*/
+.figma-conteiner {
+   width: 810px;
+   margin: 0 auto;
+   font-family: "Lato",sans-serif;
+   font-size: 16px;
+   color: #424551;
+   line-height: 160%;
+}
+.figma-title {
+   font-size: 46px;
+   font-weight: 900;
+   line-height: 130%;
+   color: #1E212C;
+}
+.figma-img {
+   margin-bottom: 60px;
+}
+p.regular,
+p.list-title,
+p.last {
+   text-align: left;
+   line-height: 160%;
+   font-size: 16px;
+   
+}
+p.bold {
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 150%;
+   color: #1E212C;
+   text-align: left;
+}
+.paragraph {
+   margin-bottom: 48px;
+}
+.pd-l {
+   padding-left: 58px;
+   margin-bottom: 48px;
+}
+p.list-title {
+   margin-bottom: 24px;
+}
+.list {
+   padding-left: 32px;
+   margin-bottom: 24px;
+}
+.item {
+   margin-bottom: 4px;
+}
+.last {
+   margin-bottom: 60px;
+}
